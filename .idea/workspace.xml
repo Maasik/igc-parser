@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82052344-df0d-4e59-8157-7aa6c5720f78" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/LICENSE" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/phpunit.xml" />
+        <option value="$PROJECT_DIR$/src/IGCParser.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Facades/IGC.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Flightlog.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Log.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/FileNotFoundException.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/Log.php" />
+        <option value="$PROJECT_DIR$/src/ParserServiceProvider.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/Parser.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Parser.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/Flightdata.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/Records.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/LRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Traits/HasFlightInformation.php" />
+        <option value="$PROJECT_DIR$/src/Contracts/SpecificRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/Record.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/AlphaRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/BravoRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/CharlieRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/DeltaRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/EchoRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/FoxtrotRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/GolfRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/HotelRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/IndiaRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/JulietRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/KiloRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/LimaRecord.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Flightdata.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code StylePHP</id>
+          </State>
+          <State>
+            <id>GeneralPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="igc-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igc-parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="igc-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igc-parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="igc-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igc-parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="igc-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igc-parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Records" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="igc-parser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="igc-parser" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Traits" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.9.1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\theomessin\Documents\Programming\php\igc-parser\src\Repository\Records" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82052344-df0d-4e59-8157-7aa6c5720f78" name="Default" comment="" />
+      <created>1498697517615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1498697517615</updated>
+      <workItem from="1498697518876" duration="1567000" />
+      <workItem from="1498846127752" duration="1692000" />
+      <workItem from="1498882766334" duration="4226000" />
+      <workItem from="1499036454395" duration="816000" />
+      <workItem from="1499063839437" duration="18099000" />
+      <workItem from="1499110189662" duration="7269000" />
+      <workItem from="1500641816321" duration="415000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="34084000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496329" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32963988" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <marker date="1499154007187" expanded="true" signature="55:350" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="398:3110" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1499154007187" expanded="true" signature="540:626" ph=" Collection of Records ..." />
+            <marker date="1499154007187" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1499154007187" expanded="true" signature="938:1200" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1209:1360" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1499154007187" expanded="true" signature="1397:2723" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1501:2676" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1533:1603" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1625:1695" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1717:1789" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1811:1881" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1903:1972" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1994:2066" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2088:2157" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2179:2249" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2271:2341" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2363:2434" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2456:2525" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2547:2616" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2637:2666" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2732:2887" ph=" Process a given record to extract data. ..." />
+            <marker date="1499154007187" expanded="true" signature="2936:3025" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="3034:3047" ph=" ..." />
+            <marker date="1499154007187" expanded="true" signature="3086:3108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1499154007187" expanded="true" signature="55:350" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="398:3110" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1499154007187" expanded="true" signature="540:626" ph=" Collection of Records ..." />
+            <marker date="1499154007187" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1499154007187" expanded="true" signature="938:1200" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1209:1360" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1499154007187" expanded="true" signature="1397:2723" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1501:2676" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1533:1603" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1625:1695" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1717:1789" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1811:1881" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1903:1972" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1994:2066" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2088:2157" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2179:2249" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2271:2341" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2363:2434" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2456:2525" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2547:2616" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2637:2666" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2732:2887" ph=" Process a given record to extract data. ..." />
+            <marker date="1499154007187" expanded="true" signature="2936:3025" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="3034:3047" ph=" ..." />
+            <marker date="1499154007187" expanded="true" signature="3086:3108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpunit.xml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IGCParser.php" />
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/FileNotFoundException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Facades/IGC.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="6" column="24" lean-forward="true" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="19" column="36" lean-forward="false" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/Parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+          <folding>
+            <marker date="1499066626665" expanded="true" signature="133:249" ph=" Instantiate a new Parser object. ..." />
+            <marker date="1499066626665" expanded="true" signature="303:524" ph=" Load and parse an IGC flight data file. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Contracts/SpecificRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/Record.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <marker date="1499113288011" expanded="true" signature="90:150" ph=" Record constructor. ..." />
+            <marker date="1499113288011" expanded="true" signature="191:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/BravoRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113319567" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113319567" expanded="true" signature="279:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/DeltaRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113324600" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113324600" expanded="true" signature="279:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/EchoRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113329098" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113329098" expanded="true" signature="278:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/FoxtrotRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113331555" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113331555" expanded="true" signature="281:338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/GolfRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113333509" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113333509" expanded="true" signature="278:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/HotelRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113335187" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113335187" expanded="true" signature="279:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/IndiaRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113337070" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113337070" expanded="true" signature="279:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/JulietRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113338975" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113338975" expanded="true" signature="280:337" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/KiloRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1499113340867" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113340867" expanded="true" signature="278:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/LimaRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1499113342648" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113342648" expanded="true" signature="278:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/CharlieRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <marker date="1499113321746" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113321746" expanded="true" signature="281:338" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Traits/HasFlightInformation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <marker date="1499112546828" expanded="true" signature="84:516" ph="{...}" />
+            <marker date="1499112546828" expanded="true" signature="221:261" ph="{...}" />
+            <marker date="1499112546828" expanded="true" signature="302:352" ph="{...}" />
+            <marker date="1499112546828" expanded="true" signature="389:435" ph="{...}" />
+            <marker date="1499112546828" expanded="true" signature="470:514" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding>
+            <marker date="1499154007187" expanded="true" signature="55:350" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="398:3110" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1499154007187" expanded="true" signature="540:626" ph=" Collection of Records ..." />
+            <marker date="1499154007187" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1499154007187" expanded="true" signature="938:1200" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1209:1360" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1499154007187" expanded="true" signature="1397:2723" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1501:2676" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="1533:1603" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1625:1695" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1717:1789" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1811:1881" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1903:1972" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="1994:2066" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2088:2157" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2179:2249" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2271:2341" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2363:2434" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2456:2525" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2547:2616" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2637:2666" ph="..." />
+            <marker date="1499154007187" expanded="true" signature="2732:2887" ph=" Process a given record to extract data. ..." />
+            <marker date="1499154007187" expanded="true" signature="2936:3025" ph="{...}" />
+            <marker date="1499154007187" expanded="true" signature="3034:3047" ph=" ..." />
+            <marker date="1499154007187" expanded="true" signature="3086:3108" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ParserServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <marker date="1499066569214" expanded="true" signature="44:123" ph="..." />
+            <marker date="1499066569214" expanded="true" signature="176:718" ph="{...}" />
+            <marker date="1499066569214" expanded="true" signature="186:273" ph=" Indicates if loading of the provider is deferred. ..." />
+            <marker date="1499066569214" expanded="true" signature="313:389" ph=" Register bindings in the container. ..." />
+            <marker date="1499066569214" expanded="true" signature="422:546" ph="{...}" />
+            <marker date="1499066569214" expanded="true" signature="459:538" ph="..." />
+            <marker date="1499066569214" expanded="true" signature="491:537" ph="..." />
+            <marker date="1499066569214" expanded="true" signature="555:639" ph=" Get the services provided by the provider. ..." />
+            <marker date="1499066569214" expanded="true" signature="672:716" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding>
+            <marker date="1499066839307" expanded="true" signature="55:167" ph="..." />
+            <marker date="1499066839307" expanded="true" signature="207:858" ph="{...}" />
+            <marker date="1499066839307" expanded="true" signature="217:285" ph=" @var \Illuminate\Contracts\Foundation\Application $app ..." />
+            <marker date="1499066839307" expanded="true" signature="316:432" ph=" Instantiate a new Parser object. ..." />
+            <marker date="1499066839307" expanded="true" signature="476:515" ph="{...}" />
+            <marker date="1499066839307" expanded="true" signature="524:745" ph=" Load and parse an IGC flight data file. ..." />
+            <marker date="1499066839307" expanded="true" signature="779:856" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/AlphaRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <marker date="1499113319590" expanded="true" signature="63:179" ph="..." />
+            <marker date="1499113319590" expanded="true" signature="239:338" ph="{...}" />
+            <marker date="1499113319590" expanded="true" signature="279:336" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/doctrine/inflector/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

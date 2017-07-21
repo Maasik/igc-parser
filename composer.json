@@ -1,0 +1,22 @@
+{
+    "name": "theomessin/igc-parser",
+    "description": "International Gliding Commission flight data file parser for Laravel",
+    "keywords": ["igc", "international ", "gliding ", "commission ", "flight ", "data", "parser", "laravel"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Theodore Messinezis",
+            "email": "theo@theomessin.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Theomessin\\IGCParser\\": "src/"
+        }
+    }
+}

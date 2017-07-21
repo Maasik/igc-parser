@@ -36,6 +36,7 @@ class Flightdata implements FlightdataContract
     public function __construct(File $file, $path)
     {
         $this->file = $file;
+        $this->records = collect();
 
         if (!$this->file->exists($path)) throw new FileNotFoundException;
         foreach(explode("\r\n", $this->file->get($path)) as $line)
@@ -52,49 +53,13 @@ class Flightdata implements FlightdataContract
      */
     protected function make($line)
     {
-        $recordClass = "\\Theomessin\\IGCParser\\Repository\\Records\\";
-        switch($line[0])
-        {
-            case 'A':
-                $recordClass .= "AlphaRecord";
-                break;
-            case 'B':
-                $recordClass .= "BravoRecord";
-                break;
-            case 'C':
-                $recordClass .= "CharlieRecord";
-                break;
-            case 'D':
-                $recordClass .= "DeltaRecord";
-                break;
-            case 'E':
-                $recordClass .= "EchoRecord";
-                break;
-            case 'F':
-                $recordClass .= "FoxtrotRecord";
-                break;
-            case 'G':
-                $recordClass .= "GolfRecord";
-                break;
-            case 'H':
-                $recordClass .= "HotelRecord";
-                break;
-            case 'I':
-                $recordClass .= "IndiaRecord";
-                break;
-            case 'J':
-                $recordClass .= "JulietRecord";
-                break;
-            case 'K':
-                $recordClass .= "KiloRecord";
-                break;
-            case 'L':
-                $recordClass .= "LimaRecord";
-                break;
-            default:
-                return null;
-        }
-
+        if ($line === "" || $line === null) return null;
+        $recordMap = [
+            'A' => "AlphaRecord", 'B' => "BravoRecord", 'C' => "CharlieRecord", 'D' => "DeltaRecord",
+            'E' => "EchoRecord", 'F' => "FoxtrotRecord", 'G' => "GolfRecord", 'H' => "HotelRecord",
+            'I' => "IndiaRecord", 'J' => "JulietRecord", 'K' => "KiloRecord", 'L' => "LimaRecord",
+        ];
+        $recordClass = "\\Theomessin\\IGCParser\\Repository\\Records\\" . $recordMap[$line[0]];
         return new $recordClass($line);
     }
 
@@ -104,7 +69,7 @@ class Flightdata implements FlightdataContract
      * @param \Theomessin\IGCParser\Repository\Records\Record $record|null
      * @return void
      */
-    protected function process(Record $record)
+    protected function process(?Record $record)
     {
         if ($record === null) return;
         $this->records->push($record);
@@ -115,6 +80,6 @@ class Flightdata implements FlightdataContract
      */
     protected function postProcess()
     {
-       //
+        //
     }
 }

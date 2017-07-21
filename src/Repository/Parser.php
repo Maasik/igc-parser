@@ -32,6 +32,6 @@ class Parser implements ParserContract
      */
     public function load($path)
     {
-        return new Flightdata($this->app->make('files'), $path);
+        return $this->app->makeWith(Flightdata::class, compact('path'));
     }
 }

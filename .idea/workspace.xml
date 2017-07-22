@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82052344-df0d-4e59-8157-7aa6c5720f78" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Repository/Records/HotelRecord.php" afterPath="$PROJECT_DIR$/src/Repository/Records/HotelRecord.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,17 +11,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HotelRecord.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Repository/Records/HotelRecord.php">
+      <file leaf-file-name="BravoRecord.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Repository/Records/BravoRecord.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-              <folding>
-                <element signature="e#59#110#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -39,7 +35,6 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/src/IGCParser.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Facades/IGC.php" />
         <option value="$PROJECT_DIR$/src/Repository/Flightlog.php" />
         <option value="$PROJECT_DIR$/src/Repository/Log.php" />
@@ -54,7 +49,6 @@
         <option value="$PROJECT_DIR$/src/Contracts/SpecificRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/Record.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/AlphaRecord.php" />
-        <option value="$PROJECT_DIR$/src/Repository/Records/BravoRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/CharlieRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/DeltaRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/EchoRecord.php" />
@@ -65,8 +59,11 @@
         <option value="$PROJECT_DIR$/src/Repository/Records/KiloRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/LimaRecord.php" />
         <option value="$PROJECT_DIR$/src/Repository/Parser.php" />
-        <option value="$PROJECT_DIR$/src/Repository/Flightdata.php" />
         <option value="$PROJECT_DIR$/src/Repository/Records/HotelRecord.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/Repository/Flightdata.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Helpers.php" />
+        <option value="$PROJECT_DIR$/src/Repository/Records/BravoRecord.php" />
       </list>
     </option>
   </component>
@@ -119,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,7 +152,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -271,12 +268,14 @@
       <workItem from="1499036454395" duration="816000" />
       <workItem from="1499063839437" duration="18099000" />
       <workItem from="1499110189662" duration="7269000" />
-      <workItem from="1500641816321" duration="6378000" />
+      <workItem from="1500641816321" duration="8475000" />
+      <workItem from="1500678843543" duration="783000" />
+      <workItem from="1500746013372" duration="6670000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40047000" />
+    <option name="totallyTimeSpent" value="49597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
@@ -316,22 +315,96 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1500678846623" expanded="true" signature="55:369" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="417:3667" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="459:527" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1500678846623" expanded="true" signature="559:645" ph=" Collection of Records ..." />
+            <marker date="1500678846623" expanded="true" signature="680:778" ph=" Collection of H Records (headers) ..." />
+            <marker date="1500678846623" expanded="true" signature="813:909" ph=" Collection of B Records (fixes) ..." />
+            <marker date="1500678846623" expanded="true" signature="942:1166" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1500678846623" expanded="true" signature="1219:1587" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1596:1747" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1500678846623" expanded="true" signature="1784:2324" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1870:2180" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2333:2488" ph=" Process a given record to extract data. ..." />
+            <marker date="1500678846623" expanded="true" signature="2538:2847" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2856:2869" ph=" ..." />
+            <marker date="1500678846623" expanded="true" signature="2908:3665" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2954:3034" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2978:3033" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3090:3170" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3114:3169" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3227:3307" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3251:3306" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3362:3442" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3386:3441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4464">
+          <caret line="98" column="24" lean-forward="true" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <marker date="1500678846623" expanded="true" signature="55:369" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="417:3667" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="459:527" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1500678846623" expanded="true" signature="559:645" ph=" Collection of Records ..." />
+            <marker date="1500678846623" expanded="true" signature="680:778" ph=" Collection of H Records (headers) ..." />
+            <marker date="1500678846623" expanded="true" signature="813:909" ph=" Collection of B Records (fixes) ..." />
+            <marker date="1500678846623" expanded="true" signature="942:1166" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1500678846623" expanded="true" signature="1219:1587" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1596:1747" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1500678846623" expanded="true" signature="1784:2324" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1870:2180" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2333:2488" ph=" Process a given record to extract data. ..." />
+            <marker date="1500678846623" expanded="true" signature="2538:2847" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2856:2869" ph=" ..." />
+            <marker date="1500678846623" expanded="true" signature="2908:3665" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2954:3034" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2978:3033" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3090:3170" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3114:3169" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3227:3307" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3251:3306" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3362:3442" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3386:3441" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
           <folding>
-            <marker date="1500671322713" expanded="false" signature="55:350" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="398:2362" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
-            <marker date="1500671322713" expanded="true" signature="540:626" ph=" Collection of Records ..." />
-            <marker date="1500671322713" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
-            <marker date="1500671322713" expanded="true" signature="938:1236" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1245:1396" ph=" Make a new Record object from an IGC line. ..." />
-            <marker date="1500671322713" expanded="true" signature="1433:1973" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1519:1829" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="1982:2137" ph=" Process a given record to extract data. ..." />
-            <marker date="1500671322713" expanded="true" signature="2187:2276" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="2285:2298" ph=" ..." />
-            <marker date="1500671322713" expanded="true" signature="2337:2360" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="55:369" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="417:3667" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="459:527" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1500678846623" expanded="true" signature="559:645" ph=" Collection of Records ..." />
+            <marker date="1500678846623" expanded="true" signature="680:778" ph=" Collection of H Records (headers) ..." />
+            <marker date="1500678846623" expanded="true" signature="813:909" ph=" Collection of B Records (fixes) ..." />
+            <marker date="1500678846623" expanded="true" signature="942:1166" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1500678846623" expanded="true" signature="1219:1587" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1596:1747" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1500678846623" expanded="true" signature="1784:2324" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1870:2180" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2333:2488" ph=" Process a given record to extract data. ..." />
+            <marker date="1500678846623" expanded="true" signature="2538:2847" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2856:2869" ph=" ..." />
+            <marker date="1500678846623" expanded="true" signature="2908:3665" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2954:3034" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2978:3033" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3090:3170" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3114:3169" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3227:3307" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3251:3306" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3362:3442" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3386:3441" ph="..." />
           </folding>
         </state>
       </provider>
@@ -341,19 +414,29 @@
         <state relative-caret-position="1440">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <marker date="1500671322713" expanded="false" signature="55:350" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="398:2362" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
-            <marker date="1500671322713" expanded="true" signature="540:626" ph=" Collection of Records ..." />
-            <marker date="1500671322713" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
-            <marker date="1500671322713" expanded="true" signature="938:1236" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1245:1396" ph=" Make a new Record object from an IGC line. ..." />
-            <marker date="1500671322713" expanded="true" signature="1433:1973" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1519:1829" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="1982:2137" ph=" Process a given record to extract data. ..." />
-            <marker date="1500671322713" expanded="true" signature="2187:2276" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="2285:2298" ph=" ..." />
-            <marker date="1500671322713" expanded="true" signature="2337:2360" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="55:369" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="417:3667" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="459:527" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1500678846623" expanded="true" signature="559:645" ph=" Collection of Records ..." />
+            <marker date="1500678846623" expanded="true" signature="680:778" ph=" Collection of H Records (headers) ..." />
+            <marker date="1500678846623" expanded="true" signature="813:909" ph=" Collection of B Records (fixes) ..." />
+            <marker date="1500678846623" expanded="true" signature="942:1166" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1500678846623" expanded="true" signature="1219:1587" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1596:1747" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1500678846623" expanded="true" signature="1784:2324" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1870:2180" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2333:2488" ph=" Process a given record to extract data. ..." />
+            <marker date="1500678846623" expanded="true" signature="2538:2847" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2856:2869" ph=" ..." />
+            <marker date="1500678846623" expanded="true" signature="2908:3665" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2954:3034" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2978:3033" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3090:3170" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3114:3169" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3227:3307" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3251:3306" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3362:3442" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3386:3441" ph="..." />
           </folding>
         </state>
       </provider>
@@ -425,10 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-          <folding>
-            <marker date="1499066626665" expanded="true" signature="133:249" ph=" Instantiate a new Parser object. ..." />
-            <marker date="1499066626665" expanded="true" signature="303:524" ph=" Load and parse an IGC flight data file. ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -436,17 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/Records/BravoRecord.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <marker date="1499113319567" expanded="true" signature="63:179" ph="..." />
-            <marker date="1499113319567" expanded="true" signature="279:336" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -521,7 +589,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="true" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1499112546828" expanded="true" signature="84:516" ph="{...}" />
             <marker date="1499112546828" expanded="true" signature="221:261" ph="{...}" />
             <marker date="1499112546828" expanded="true" signature="302:352" ph="{...}" />
             <marker date="1499112546828" expanded="true" signature="389:435" ph="{...}" />
@@ -536,7 +603,6 @@
           <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <marker date="1499113319590" expanded="true" signature="63:179" ph="..." />
-            <marker date="1499113319590" expanded="true" signature="239:338" ph="{...}" />
             <marker date="1499113319590" expanded="true" signature="279:336" ph="{...}" />
           </folding>
         </state>
@@ -546,22 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <marker date="1498883811562" expanded="true" signature="0:602" ph="{&quot;name&quot;: &quot;theomessin/igc-parser&quot;...}" />
-            <marker date="1498883811562" expanded="true" signature="300:413" ph="[...]" />
-            <marker date="1498883811562" expanded="true" signature="310:407" ph="{&quot;name&quot;: &quot;Theodore Messinezis&quot;...}" />
-            <marker date="1498883811562" expanded="true" signature="430:500" ph="{&quot;php&quot;: &quot;&gt;=7.0.0&quot;...}" />
-            <marker date="1498883811562" expanded="true" signature="518:600" ph="{...}" />
-            <marker date="1498883811562" expanded="true" signature="537:594" ph="{&quot;Theomessin\IGCParser\&quot;: &quot;src/&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -571,7 +621,6 @@
           <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
           <folding>
             <marker date="1499066569214" expanded="true" signature="44:123" ph="..." />
-            <marker date="1499066569214" expanded="true" signature="176:718" ph="{...}" />
             <marker date="1499066569214" expanded="true" signature="186:273" ph=" Indicates if loading of the provider is deferred. ..." />
             <marker date="1499066569214" expanded="true" signature="313:389" ph=" Register bindings in the container. ..." />
             <marker date="1499066569214" expanded="true" signature="422:546" ph="{...}" />
@@ -588,25 +637,8 @@
         <state relative-caret-position="144">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1499064705746" expanded="true" signature="112:308" ph="{...}" />
             <marker date="1499064705746" expanded="true" signature="122:206" ph=" Get the registered name of the component. ..." />
             <marker date="1499064705746" expanded="true" signature="258:306" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Repository/Parser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-          <folding>
-            <marker date="1500643356669" expanded="true" signature="55:167" ph="..." />
-            <marker date="1500643356669" expanded="true" signature="207:866" ph="{...}" />
-            <marker date="1500643356669" expanded="true" signature="217:285" ph=" @var \Illuminate\Contracts\Foundation\Application $app ..." />
-            <marker date="1500643356669" expanded="true" signature="316:432" ph=" Instantiate a new Parser object. ..." />
-            <marker date="1500643356669" expanded="true" signature="476:515" ph="{...}" />
-            <marker date="1500643356669" expanded="true" signature="524:745" ph=" Load and parse an IGC flight data file. ..." />
-            <marker date="1500643356669" expanded="true" signature="779:864" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -616,7 +648,6 @@
         <state relative-caret-position="48">
           <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <marker date="1499113288011" expanded="true" signature="80:285" ph="{...}" />
             <marker date="1499113288011" expanded="true" signature="90:150" ph=" Record constructor. ..." />
             <marker date="1499113288011" expanded="true" signature="191:234" ph="{...}" />
           </folding>
@@ -629,7 +660,6 @@
           <caret line="11" column="27" lean-forward="true" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding>
             <marker date="1499113321746" expanded="true" signature="63:179" ph="..." />
-            <marker date="1499113321746" expanded="true" signature="241:340" ph="{...}" />
             <marker date="1499113321746" expanded="true" signature="281:338" ph="{...}" />
           </folding>
         </state>
@@ -641,7 +671,6 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <marker date="1499113329098" expanded="true" signature="63:179" ph="..." />
-            <marker date="1499113329098" expanded="true" signature="238:337" ph="{...}" />
             <marker date="1499113329098" expanded="true" signature="278:335" ph="{...}" />
           </folding>
         </state>
@@ -653,41 +682,96 @@
           <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
           <folding>
             <marker date="1499113331555" expanded="true" signature="63:179" ph="..." />
-            <marker date="1499113331555" expanded="true" signature="241:340" ph="{...}" />
             <marker date="1499113331555" expanded="true" signature="281:338" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="33" column="5" lean-forward="false" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <marker date="1500643356669" expanded="true" signature="55:167" ph="..." />
+            <marker date="1500643356669" expanded="true" signature="217:285" ph=" @var \Illuminate\Contracts\Foundation\Application $app ..." />
+            <marker date="1500643356669" expanded="true" signature="316:432" ph=" Instantiate a new Parser object. ..." />
+            <marker date="1500643356669" expanded="true" signature="476:515" ph="{...}" />
+            <marker date="1500643356669" expanded="true" signature="524:745" ph=" Load and parse an IGC flight data file. ..." />
+            <marker date="1500643356669" expanded="true" signature="779:864" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/Flightdata.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="84" column="1" lean-forward="false" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
+        <state relative-caret-position="528">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
-            <marker date="1500671322713" expanded="false" signature="55:350" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="398:2362" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="440:508" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
-            <marker date="1500671322713" expanded="true" signature="540:626" ph=" Collection of Records ..." />
-            <marker date="1500671322713" expanded="true" signature="661:885" ph=" Instantiate a new Flightdata object. ..." />
-            <marker date="1500671322713" expanded="true" signature="938:1236" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1245:1396" ph=" Make a new Record object from an IGC line. ..." />
-            <marker date="1500671322713" expanded="true" signature="1433:1973" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="1519:1829" ph="..." />
-            <marker date="1500671322713" expanded="true" signature="1982:2137" ph=" Process a given record to extract data. ..." />
-            <marker date="1500671322713" expanded="true" signature="2187:2276" ph="{...}" />
-            <marker date="1500671322713" expanded="true" signature="2285:2298" ph=" ..." />
-            <marker date="1500671322713" expanded="true" signature="2337:2360" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="55:369" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="417:3667" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="459:527" ph=" @var \Illuminate\Contracts\Filesystem\Filesystem $file ..." />
+            <marker date="1500678846623" expanded="true" signature="559:645" ph=" Collection of Records ..." />
+            <marker date="1500678846623" expanded="true" signature="680:778" ph=" Collection of H Records (headers) ..." />
+            <marker date="1500678846623" expanded="true" signature="813:909" ph=" Collection of B Records (fixes) ..." />
+            <marker date="1500678846623" expanded="true" signature="942:1166" ph=" Instantiate a new Flightdata object. ..." />
+            <marker date="1500678846623" expanded="true" signature="1219:1587" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1596:1747" ph=" Make a new Record object from an IGC line. ..." />
+            <marker date="1500678846623" expanded="true" signature="1784:2324" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="1870:2180" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2333:2488" ph=" Process a given record to extract data. ..." />
+            <marker date="1500678846623" expanded="true" signature="2538:2847" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2856:2869" ph=" ..." />
+            <marker date="1500678846623" expanded="true" signature="2908:3665" ph="{...}" />
+            <marker date="1500678846623" expanded="true" signature="2954:3034" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="2978:3033" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3090:3170" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3114:3169" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3227:3307" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3251:3306" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3362:3442" ph="..." />
+            <marker date="1500678846623" expanded="true" signature="3386:3441" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Repository/Records/HotelRecord.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#59#110#0#PHP" expanded="true" />
+            <marker date="1500673056561" expanded="true" signature="63:179" ph="..." />
+            <marker date="1500673056561" expanded="true" signature="239:656" ph="{...}" />
+            <marker date="1500673056561" expanded="true" signature="339:654" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <marker date="1500758957418" expanded="true" signature="64:617" ph="{...}" />
+            <marker date="1500758957418" expanded="true" signature="109:296" ph="{...}" />
+            <marker date="1500758957418" expanded="true" signature="132:288" ph="..." />
+            <marker date="1500758957418" expanded="true" signature="348:527" ph="{...}" />
+            <marker date="1500758957418" expanded="true" signature="569:615" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Repository/Records/BravoRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

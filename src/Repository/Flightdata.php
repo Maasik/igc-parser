@@ -2,6 +2,7 @@
 
 namespace Theomessin\IGCParser\Repository;
 
+use Carbon\Carbon;
 use Theomessin\IGCParser\Repository\Records\Record;
 use Illuminate\Contracts\Filesystem\Filesystem as File;
 use Theomessin\IGCParser\Contracts\FileNotFoundException;
@@ -26,6 +27,20 @@ class Flightdata implements FlightdataContract
     protected $records;
 
     /**
+     * Collection of H Records (headers)
+     *
+     * @var  \Illuminate\Support\Collection
+     */
+    protected $headers;
+
+    /**
+     * Collection of B Records (fixes)
+     *
+     * @var  \Illuminate\Support\Collection
+     */
+    protected $fixes;
+
+    /**
      * Instantiate a new Flightdata object.
      *
      * @param \Illuminate\Contracts\Filesystem\Filesystem $file
@@ -36,7 +51,9 @@ class Flightdata implements FlightdataContract
     public function __construct(File $file, $path)
     {
         $this->file = $file;
+        $this->fixes = collect();
         $this->records = collect();
+        $this->headers = collect();
 
         if (!$this->file->exists($path)) throw new FileNotFoundException;
         foreach(explode("\r\n", $this->file->get($path)) as $line)
@@ -73,6 +90,11 @@ class Flightdata implements FlightdataContract
     {
         if ($record === null) return;
         $this->records->push($record);
+
+        if(class_basename(get_class($record)) === "HotelRecord")
+            $this->headers->push($record);
+        else if(class_basename(get_class($record)) === "BravoRecord")
+            $this->fixes->push($record);
     }
 
     /**
@@ -80,6 +102,22 @@ class Flightdata implements FlightdataContract
      */
     protected function postProcess()
     {
-        //
+        $date = $this->headers->filter(function($value, $key) {
+            return $value->subtype === "DTE";
+        })->first()->data;
+        $pic = $this->headers->filter(function($value, $key) {
+            return $value->subtype === "PLT";
+        })->first()->data;
+        $type = $this->headers->filter(function($value, $key) {
+            return $value->subtype === "GTY";
+        })->first()->data;
+        $id = $this->headers->filter(function($value, $key) {
+            return $value->subtype === "GID";
+        })->first()->data;
+
+        $this->date = Carbon::createFromFormat('dmy', explode(',', $date)[0])->toDateString();
+        $this->pilotInCommand = $pic;
+        $this->gliderType = $type;
+        $this->gliderId = $id;
     }
 }

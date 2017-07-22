@@ -12,7 +12,8 @@
     ],
     "require": {
         "php": ">=7.0.0",
-        "illuminate/support": "^5.4"
+        "illuminate/support": "^5.4",
+        "nesbot/carbon": "^1.22"
     },
     "autoload": {
         "psr-4": {

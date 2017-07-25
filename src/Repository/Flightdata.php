@@ -116,7 +116,7 @@ class Flightdata implements FlightdataContract
         })->first()->data;
 
         $this->date = Carbon::createFromFormat('dmy', explode(',', $date)[0])->toDateString();
-        $this->pilotInCommand = ucfirst(strtolower($pic));
+        $this->pilotInCommand = ucwords(strtolower($pic));
         $this->gliderType = $type;
         $this->gliderId = $id;
     }

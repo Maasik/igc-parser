@@ -56,7 +56,7 @@ class Flightdata implements FlightdataContract
         $this->headers = collect();
 
         if (!$this->file->exists($path)) throw new FileNotFoundException;
-        foreach(explode("\r\n", $this->file->get($path)) as $line)
+        foreach(explode("\n", $this->file->get($path)) as $line)
             $this->process($this->make($line));
 
         $this->postProcess();
@@ -70,6 +70,7 @@ class Flightdata implements FlightdataContract
      */
     protected function make($line)
     {
+	$line = str_replace("\r", "", $line);
         if ($line === "" || $line === null) return null;
         $recordMap = [
             'A' => "AlphaRecord", 'B' => "BravoRecord", 'C' => "CharlieRecord", 'D' => "DeltaRecord",

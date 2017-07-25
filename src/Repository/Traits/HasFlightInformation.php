@@ -28,4 +28,23 @@ trait HasFlightInformation
     {
         return $this->gliderId;
     }
+
+    public function getLateralTrace()
+    {
+        return $this->fixes->filter(function($value, $key) {
+            return $key % 10 === 0;
+        })->map->coordinates->values();
+    }
+
+    public function getVerticalTrace()
+    {
+        return $this->fixes->filter(function($value, $key) {
+            return $key % 10 === 0;
+        })->map(function($e) {
+            return [
+                'time' => $e->time,
+                'height' => $e->height,
+            ];
+        })->values();
+    }
 }

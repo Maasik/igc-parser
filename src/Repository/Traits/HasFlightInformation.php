@@ -9,6 +9,12 @@ trait HasFlightInformation
     protected $gliderType;
     protected $gliderId;
 
+
+    public function getFixes()
+    {
+        return $this->fixes;
+    }
+
     public function getDate()
     {
         return $this->date;

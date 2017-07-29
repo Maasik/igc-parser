@@ -21,6 +21,7 @@ class BravoRecord extends Record implements RecordContract
         $this->altitude = Helpers::feet(substr($line, 25, 5));
         $this->height = Helpers::feet(substr($line, 30, 5));
 
+        if ($this->altitude == 0.0) $this->altitude = $this->height;
         // TODO: Implement process() method.
     }
 }
